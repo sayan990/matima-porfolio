@@ -11,13 +11,13 @@ const HomePage: React.FC = () => {
         <img src={fondo} alt="Main Drawing" className="w-full h-full object-cover" />
       </div>
 
-      <div className="p-8">
-        <div className="flex items-center space-x-6">
+      <div className="p-4 md:p-8">
+        <div className="flex flex-col md:flex-row items-center md:space-x-6">
           {/* Profile Picture */}
-          <img src={profileGif} alt="Profile" className="w-32 h-32 rounded-full flex-shrink-0 object-cover" />
+          <img src={profileGif} alt="Profile" className="w-24 h-24 md:w-32 md:h-32 rounded-full flex-shrink-0 object-cover mb-4 md:mb-0" />
           
-          <div className='flex flex-col justify-center gap-4'>
-            <h1 className="text-4xl font-bold">Matima</h1>
+          <div className='flex flex-col justify-center items-center md:items-start gap-4'>
+            <h1 className="text-3xl md:text-4xl font-bold">Matima</h1>
             
             
             {/* Social Media Icons */}
