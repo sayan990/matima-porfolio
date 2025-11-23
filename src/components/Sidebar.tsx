@@ -20,7 +20,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, navigateTo }) => {
             <a href="#" className="hover:text-gray-300">Sobre mí</a>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300">Comiciones</a>
+            <a href="#" onClick={() => navigateTo('commissions')} className="hover:text-gray-300 cursor-pointer">Comisiones</a>
           </li>
         </ul>
       </nav>
